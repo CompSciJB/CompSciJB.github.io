@@ -1,8 +1,60 @@
 body {
-  background-color: lightblue;
+  background-image: url("water.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1 {
-  color: orange;
-  margin-left: 20px;
+.meContent, #description {
+  color: white;
+  padding: 0px 10px;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+  margin-left: 10%;
+}
+
+.icon{
+	margin-left:10%;
+	height: 4%;
+	width: 8%;
+}
+
+.topic, .name {
+	text-align:center;
+	justify-content: center;
+  	margin-left: 10%;
+	color: white;
+}
+
+.name{
+	font-size: 40px;
+	color: white;
+}
+
+.sidebar {
+	background-image: url("matte.jpg");
+  	height: 50%;
+  	width: 20%;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	overflow-x: hidden;
+  	padding-top: 16px;
+  	border-radius: 10%;
+}
+
+.roundedImg{
+	margin-left: 10%;
+	margin-right: 10%;
+	width:80%;
+	height: auto;
+	border-radius: 50%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
