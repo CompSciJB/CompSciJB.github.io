@@ -4,6 +4,11 @@ body {
   background-size: cover;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+    text-shadow: .5px .5px .5px #222222;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -48,9 +53,15 @@ body {
 }
 
 .icon{
+	border-radius: 20%;
+	background-color:white;
 	margin-left:10%;
-	height: 5%;
-	width: auto;
+	width: 10%;
+	height: auto;
+}
+
+.links{
+	display: inline-flex;
 }
 
 .SmallMe {
@@ -85,5 +96,8 @@ body {
 }
 
 .titles{
-	background-color: #333;
+	color: black;
+	background-color: #FD5E53;
+	margin-left:25%;
+	margin-right:25%;
 }
