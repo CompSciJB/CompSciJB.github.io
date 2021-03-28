@@ -1,5 +1,5 @@
 body {
-  background-image: url("sky.jpg");
+  background-image: url("desert.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -56,9 +56,9 @@ body {
 .SmallMe {
 	text-align:center;
 	justify-content: center;
-  	margin-left: 25%;
-  	width:50%;
 	color: #222222;
+  	width:50%;
+	margin-left: 25%;
 }
 
 .sidebar {
@@ -70,7 +70,7 @@ body {
   	left: 0;
   	overflow-x: hidden;
   	padding-top: 5%;
-  	margin-top: 8%;
+  	padding-bottom: 5%;
 }
 
 .pText{
@@ -85,5 +85,5 @@ body {
 }
 
 .titles{
-
+	background-color: #333;
 }
