@@ -33,8 +33,8 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-.meContent {
-  color: white;
+.meContent, .skills{
+  color: black
   padding: 5px 5px;
   text-align:center;
   display: flex;
@@ -44,7 +44,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   margin-left: 22%;
   margin-right: 20%;
-  background-color: #333;
+  background-color: rgb(253, 94, 83,.8);
+
 }
 
 .mainContent{
@@ -67,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 .SmallMe {
 	text-align:center;
 	justify-content: center;
-	color: #222222;
   	width:50%;
 	margin-left: 25%;
 }
@@ -85,7 +85,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pText{
-	font-size: 22px;
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+#description{
+	font-size:22px;
+}
+
+.skillDiv{
+	display:inline-flex;
+}
+
+.SkillEAS,.SkillCompSci{
+	margin-left:6%;
+}
+
+#skillList{
+	text-align: left;
+	padding-left:15%;
 }
 
 .roundedImg{
@@ -96,8 +113,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .titles{
+	background-color: rgb(253, 94, 83,.1);
 	color: black;
-	background-color: #FD5E53;
 	margin-left:25%;
 	margin-right:25%;
 }
