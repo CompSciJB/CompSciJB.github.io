@@ -97,12 +97,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .SkillEAS,.SkillCompSci{
-	margin-left:6%;
+	margin-left:5%;
+	width: 40%;
 }
 
 #skillList{
 	text-align: left;
-	padding-left:15%;
+	padding-left:25%;
 }
 
 .roundedImg{
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .titles{
-	background-color: rgb(253, 93, 83,.1);
+	background-color: rgb(253, 94, 83,.1);
 	color: black;
 	margin-left:25%;
 	margin-right:25%;
