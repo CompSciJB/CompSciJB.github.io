@@ -105,12 +105,13 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-flex;
 }
 
-.SmallMe {
+.SmallMe{
 	text-align:center;
 	justify-content: center;
-  	width:50%;
+  width:50%;
 	margin-left: 5%;
 }
+
 
 #description,.topic,.contactInfo{
 	backdrop-filter: blur(4px);
@@ -125,6 +126,23 @@ h1, h2, h3, h4, h5, h6 {
   	left: 0;
   	padding-top: 2%;
   	padding-bottom: 5%;
+}
+
+.menuDemo{
+  color: black
+  padding: 5px 5px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.demoHTML{
+  height: 850px;
 }
 
 .topOfPage{
@@ -156,11 +174,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left:25%;
 }
 
-.roundedImg{
+.headshot{
 	margin-left: 10%;
+  margin-right: 5%;
 	width:80%;
-	height: auto;
-	border-radius: 50%;
+	height:auto;
+  border-style: solid;
+  border-color: black;
 }
 
 .titles{
