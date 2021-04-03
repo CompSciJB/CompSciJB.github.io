@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
   to {opacity: 1;}
 }
 
+.link{
+  text-align: center;
+}
+
 .tab button {
 	box-sizing: border-box;
   	font-family: 'Corben', Georgia, Times, serif;
@@ -128,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   	padding-bottom: 5%;
 }
 
-.menuDemo{
+.menuDemo,.germTower,.translations{
   color: black
   padding: 5px 5px;
   text-align:center;
@@ -141,8 +145,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-right:5%;
 }
 
+.translations{
+  margin-left: 25%;
+}
+
+.vd{
+  margin-left:32%;
+}
+
 .demoHTML{
   height: 850px;
+
 }
 
 .topOfPage{
