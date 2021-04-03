@@ -5,13 +5,13 @@
 <meta http-equiv='pragma' content='no-cache'>
 <head>
 	<link rel="stylesheet" text="text/css" href="index.css">
+	<script src="javascript.js" type="text/javascript"></script>
 </head>
 
 <body>
 	<div class="topnav">
   		<a class="active" href="#home">☰</a>
   </div>
-	</div>
 	<div class = mainContent>
 		<div class = "topOfPage">
 			<div class="sidebar">
@@ -32,54 +32,57 @@
 				</p>
 			</div>
 		</div>
+		<div class="tab">
+			  <button type="button" id = "toMeContent">About Me</button>
+			  <button type="button" id = "toSkills"> Skills</button>
+			  <button type="button" id = "toProjects"> Projects</button>
+			  <button type="button" id = "toResumes"> Resumes </button>
+			  <button type="button" id = "toCovers"> CoverLetter </button>
+			  <button type="button" id = "toProf"> Professionalization </button>
+		</div>
 
-		<div class="meContent">
-			<div class="tab">
-			  <button class="tablinks" onclick="openCity(event, 'London')">About me</button>
-			  <button class="tablinks" onclick="openCity(event, 'Paris')">Skills</button>
-			  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Professionalization</button>
+		<div id="meContent">
+				<H2 class="titles">
+					An Education Reflection
+				</H2>
+				<p class="pText">
+				For the last five years I have dedicated my life to the pursuit of two separate bachelor’s degrees at the University of Arizona. During this time, I additionally was in some form of internship more often than not. It has been a challenging time for me, especially due to the impacts of Covid-19, but I am happy to say that as of May 2021 I am officially a graduate of the Computer Science program and the East Asian Studies-Chinese Language program!<br><br>
+
+				When talking about Computer Science, I can look back and see several years of trails that have taken me through some of the hardest challenges I have ever faced, but coming out on top I have learned that I have the foundation to make it far in this career as well as the fact that I will never stop learning while in this career field. There will always be new puzzles to solve and software to build and I am incredibly excited to be a part of a field that will never cease to expand.  <br> <br>
+
+				I view this degree as the most challenging aspect of my education thus far due to how much work had to be put into each course. I definitely learned critical thinking and how to find and use resources effectively. I feel like this degree path out of the two of them required the most hours spent attempting to solve singular problems as well as finding innovative and unique ways to solve each problem. I chose and love computer science because of this exact phenomenon, I think that the puzzles placed in front of me are one of the most fun experiences to solve. When I finally get the code compiling and the logic working after hours of toiling away, the feeling of gratification I get from seeing the hard work come together as a functional piece of software is unparallel to anything I have discovered in life yet. I have become proficient in programming and can write in over 12 programming languages now from Python and Java to C and assembly, but I will never forget how hard it was for me to learn the basic concepts because only looking back now do I see how simple they were yet frustrating to me at that moment. That lesson itself taught me how things in life might seem incredibly hard now, but after some practice and perseverance I will eventually look back upon it as a simple trial that would no longer even phase me. It also gives me empathy and understanding to those that are just learning something new because of how hard I struggled to get up those same hills.  <br> <br>
+
+				When talking about Chinese language, I can see the growth and change that developing the ability to speak a secondary language has had upon me.  It has not only opened my eyes to the difficulties of what it is like to learn a foreign language, but it has also made me a more understanding and compassionate person as well as a better communicator. I have a few people in my life who do not have the ability to speak fluent English but can speak Mandarin, and so by learning Chinese I have gotten to know them so much better as time has gone on. When I started everything was using hand signals and the bits of English they know. As time progressed it has developed into the use of more and more Chinese until now, where I can hold conversations to a degree. I am nowhere near fluent, but I hope to keep learning the language in my personal life as a hobby going forward as well as continuing to develop my understanding of foreign cultures. <br> <br>
+
+	 			Learning Chinese has been a major contributor to increasing my memorization and overall memory-based abilities. It has helped me to develop the ability to store large amounts of information after only seeing it a few times, a skill that has gotten progressively better since the degree began. The courses in my East Asian Studies degree were not all language courses though and I think these were beneficial in their own ways. I have spent hours writing papers and reading through academic writings to understand meaning and draw conclusions properly. The degree path taught me how to construct arguments from written sources and accurately portray them upon paper. This is a skill that will be used in any job field regardless of where I am at. <br> <br>
+
+				Looking to the future I am excited yet nervous to find out where my career will take me, but I am satisfied in knowing that the skills I have developed in the past five years will be foundational in my future success. I have learned discipline, time management, hard work, patience, compassion, and the ability to teach myself things when nobody else can. These skills are going to carry my career as well as my day to day life and I am more than excited to start putting them to the true test after college ended.
+			 	</p>
+		</div>
+		<div id = "projects">
+			<div id = "menuDemo" class = "menuDemo">
+				<h2>
+					Restaurant menu website I helped write in a four man team in the course CSC343.
+				</h2>
+				<object data="Prototype/fatTiger.html" class = "demoHTML"></object>
 			</div>
-			<H2 class="titles">
-				An Education Reflection
-			</H2>
-			<p class="pText">
-			For the last five years I have dedicated my life to the pursuit of two separate bachelor’s degrees at the University of Arizona. During this time, I additionally was in some form of internship more often than not. It has been a challenging time for me, especially due to the impacts of Covid-19, but I am happy to say that as of May 2021 I am officially a graduate of the Computer Science program and the East Asian Studies-Chinese Language program!<br><br>
 
-			When talking about Computer Science, I can look back and see several years of trails that have taken me through some of the hardest challenges I have ever faced, but coming out on top I have learned that I have the foundation to make it far in this career as well as the fact that I will never stop learning while in this career field. There will always be new puzzles to solve and software to build and I am incredibly excited to be a part of a field that will never cease to expand.  <br> <br>
+			<div id = "germTower" class = "germTower">
+				<h2>
+				Video demo of a tower defense game a small team and I built in one of my earlier Java courses
+	 			</h2>
+	 			<video class = "vd" width="600" height="500" controls>
+	  				<source src="gtd.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
 
-			I view this degree as the most challenging aspect of my education thus far due to how much work had to be put into each course. I definitely learned critical thinking and how to find and use resources effectively. I feel like this degree path out of the two of them required the most hours spent attempting to solve singular problems as well as finding innovative and unique ways to solve each problem. I chose and love computer science because of this exact phenomenon, I think that the puzzles placed in front of me are one of the most fun experiences to solve. When I finally get the code compiling and the logic working after hours of toiling away, the feeling of gratification I get from seeing the hard work come together as a functional piece of software is unparallel to anything I have discovered in life yet. I have become proficient in programming and can write in over 12 programming languages now from Python and Java to C and assembly, but I will never forget how hard it was for me to learn the basic concepts because only looking back now do I see how simple they were yet frustrating to me at that moment. That lesson itself taught me how things in life might seem incredibly hard now, but after some practice and perseverance I will eventually look back upon it as a simple trial that would no longer even phase me. It also gives me empathy and understanding to those that are just learning something new because of how hard I struggled to get up those same hills.  <br> <br>
-
-			When talking about Chinese language, I can see the growth and change that developing the ability to speak a secondary language has had upon me.  It has not only opened my eyes to the difficulties of what it is like to learn a foreign language, but it has also made me a more understanding and compassionate person as well as a better communicator. I have a few people in my life who do not have the ability to speak fluent English but can speak Mandarin, and so by learning Chinese I have gotten to know them so much better as time has gone on. When I started everything was using hand signals and the bits of English they know. As time progressed it has developed into the use of more and more Chinese until now, where I can hold conversations to a degree. I am nowhere near fluent, but I hope to keep learning the language in my personal life as a hobby going forward as well as continuing to develop my understanding of foreign cultures. <br> <br>
-
- 			Learning Chinese has been a major contributor to increasing my memorization and overall memory-based abilities. It has helped me to develop the ability to store large amounts of information after only seeing it a few times, a skill that has gotten progressively better since the degree began. The courses in my East Asian Studies degree were not all language courses though and I think these were beneficial in their own ways. I have spent hours writing papers and reading through academic writings to understand meaning and draw conclusions properly. The degree path taught me how to construct arguments from written sources and accurately portray them upon paper. This is a skill that will be used in any job field regardless of where I am at. <br> <br>
-
-			Looking to the future I am excited yet nervous to find out where my career will take me, but I am satisfied in knowing that the skills I have developed in the past five years will be foundational in my future success. I have learned discipline, time management, hard work, patience, compassion, and the ability to teach myself things when nobody else can. These skills are going to carry my career as well as my day to day life and I am more than excited to start putting them to the true test after college ended.
-
-		 	</p>
+			<div class="translations">
+				<iframe src="translation8.pdf" height="900" width="900"></iframe>
+			</div>
 		</div>
 
-		<div id = "menuDemo" class = "menuDemo">
-			<h2>
-				Resturant menu website I helped write in a four man team in the course CSC343.
-			</h2>
-			<object data="Prototype/fatTiger.html" class = "demoHTML"></object>
-		</div>
-
-		<div id = "germTower" class = "germTower">
-			<h2>
-			Video demo of a tower defense game a small team and I built in one of my earlier Java courses
- 			</h2>
- 			<video class = "vd" width="600" height="500" controls>
-  				<source src="gtd.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-		</div>
-
-		<div class="translations">
-			<iframe src="translation8.pdf" height="900" width="900"></iframe>
-		</div>
-
-		<div class = "skills">
+		<div id = "skills">
 			<h1 class = "titles"> My skills </h1>
 			<div class = "skillDiv">
 				<div class = "SkillEAS">
@@ -127,11 +130,11 @@
 						-	Leadership<br>
 						-	Adaptability
 					</p>
-				</p>
+				</div>
 			</div>
 		</div>
 
-		<div class = "professionalization">
+		<div class = professionalization id = "professionalization">
 			<h1 class="titles"> Professionalization </h1>
 			<div class="jobs">
 				<h2 class="titles"> Jobs I could apply for </h2>
@@ -148,7 +151,15 @@
 				I think at the end of the day the communication and on the spot questions you are asked during a career fair is really the experience that is meant to be gained from such an event. Most people I know did not get a job from a career fair at any point, and so although the chances of getting a job exist, the likelihood is still low which is why I never found them to be all that helpful. I still have a lot to learn in the ways of communication and interviewing, but having already interviewed and accepted 3 different internship positions during my education career makes me feel conifdent that the skills I have now would not be substantially increased by attending another career fair. It would be purely to find a job.
 				</p>
 			</div>
-			<div class="resCov">
+			<div id = "interviewDoc">			
+				<h3> Interview Documentation </h3>
+				<p class = "pText">
+					At this point in my education and career I have successfully nabbed three internships out of four or so interviews. I am confident in my interview skills because of this. I think being confident about your skills, being excited to learn and add to the company, and being positive, warm, and willing to chat make for a memorable interviewee. My strategy so far has been to find common ground in some kind of background interest, at the TEP interview we talked about bicycles because my interviewer was a triathlete and I know a bit about off-road cycling. <br>
+				</p>
+				<iframe src="notes.pdf" height="900" width="900"></iframe>
+			</div>
+		</div>
+		<div id="resumes" class="resumes">
 				<h2 class="titles"> My resume </h2>
 				<h3 class ="pText"> Resume tailored to Software Developer-OTA Platform position for General Motors. </h3>
 				<a href="https://www.glassdoor.com/job-listing/software-developer-ota-platform-general-motors-JV_IC1133878_KO0,31_KE32,46.htm?jl=3808596281&pos=107&ao=1044074&s=58&guid=000001789525de2484804dca5a4ea1cc&src=GD_JOB_AD&t=SR&vt=w&uido=BB16BE4B95F08273E88C453C51C2DBA1&cs=1_93cbd27a&cb=1617409990565&jobListingId=3808596281&ctt=1617410095130"> Glassdoor
@@ -157,16 +168,12 @@
 				<iframe src="gmRes.pdf" height="900" width="900"></iframe>
 				<h3> Chinese resume. </h3>
 				<iframe src="CHNresume.pdf" height="900" width="900"></iframe>
-				<h3> Cover letter tailored to Software Developer-OTA Platform position for General Motors. </h3>
-				<iframe src="gmCover.pdf" height="900" width="900"></iframe>
-
-				<h3> Interview Documentation </h3>
-				<p class = "pText">
-					At this point in my education and career I have successfully nabbed three internships out of four or so interviews. I am confident in my interview skills because of this. I think being confident about your skills, being excited to learn and add to the company, and being positive, warm, and willing to chat make for a memorable interviewee. My strategy so far has been to find common ground in some kind of background interest, at the TEP interview we talked about bicycles because my interviewer was a triathlete and I know a bit about off-road cycling. <br>
-				<iframe src="notes.pdf" height="900" width="900"></iframe>
-			</div>
+				
+		</div>
+		<div id = "covers">
+			<h3> Cover letter tailored to Software Developer-OTA Platform position for General Motors. </h3>
+			<iframe src="gmCover.pdf" height="900" width="900"></iframe>
+		</div>
 	</div>
-
-
 </body>
 </html>
